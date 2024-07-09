@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -33,6 +34,8 @@ ul {
 .logo {
     height: 30px;
     width: 50px;
+    margin-right: 200px;
+
 }
 
 /*Generics*/
