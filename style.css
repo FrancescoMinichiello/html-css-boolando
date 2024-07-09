@@ -16,6 +16,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 ul {
@@ -163,3 +164,5 @@ h4 {
     justify-content: space-around;
     align-items: center;
 }
+
+/*Fine esercizio*/
