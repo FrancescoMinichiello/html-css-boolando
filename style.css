@@ -1,0 +1,59 @@
+/*Reset Css*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+
+header {
+    height: 70px;
+    background-color: #FF6900;
+    position: sticky;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.box-header {
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-header {
+    gap: 20px;
+}
+
+.logo {
+    height: 30px;
+    width: 50px;
+}
+
+/*Generics*/
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+/*Utility*/
+
+.col-white {
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
