@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 
@@ -14,6 +14,8 @@ header {
     height: 70px;
     background-color: #FF6900;
     position: sticky;
+    top: 0;
+    left: 0;
 }
 
 ul {
@@ -49,9 +51,27 @@ li {
     list-style-type: none;
 }
 
+.img-card {
+    width: 400px;
+    display: block;
+}
+
+.img-2 {
+    display: none;
+    width: 400px;
+
+}
+
+.change-img:hover .img-card {
+    display: none;
+}
+
+.change-img:hover .img-2 {
+    display: block
+}
 
 
-/*Utility*/
+/*Utils*/
 
 .col-white {
     color: white;
@@ -59,4 +79,73 @@ li {
 
 .d-flex {
     display: flex;
+}
+
+.bgcol-red {
+    background-color: #FF0000;
+}
+
+.bgcol-green {
+    background-color: green;
+}
+
+.col-red {
+    color: #FF0000;
+}
+
+.initial-price {
+    text-decoration: line-through;
+}
+
+.sm-margin-top {
+    padding-top: 5px;
+}
+
+.fa-heart {
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.fa-heart:hover {
+    color: #FF0000;
+}
+
+/*Main*/
+.container {
+    margin: 70px auto;
+}
+
+.row {
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    padding: 5px 10px
+}
+
+.eco {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    padding: 5px 10px;
+    margin-left: 10px;
+
+}
+
+.add-like-list {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 20px;
 }
