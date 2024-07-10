@@ -16,7 +16,8 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1;
+    box-shadow: 0 1px 3px #666;
 }
 
 ul {
@@ -36,8 +37,6 @@ ul {
 
 .logo {
     height: 30px;
-    width: 50px;
-    margin-right: 200px;
 
 }
 
